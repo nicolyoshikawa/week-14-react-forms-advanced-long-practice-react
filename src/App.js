@@ -10,15 +10,11 @@ function App() {
     <>
       <h1>a/A Forms</h1>
       <nav>
-        <li>
-          <NavLink to="/">Home</NavLink>
-        </li>
-        <li>
-          <NavLink to="/sample-survey">Sample Survey</NavLink>
-        </li>
-        <li>
-          <NavLink to="/sensory-preferences-survery">Sensory Preferences Survey</NavLink>
-        </li>
+        <li> <NavLink to="/">Home</NavLink> </li>
+        {" "} | {" "}
+        <li> <NavLink to="/sample-survey">Sample Survey</NavLink> </li>
+        {" "} | {" "}
+        <li> <NavLink to="/sensory-preferences-survery">Sensory Preferences Survey</NavLink> </li>
       </nav>
       <Switch>
         <Route exact path="/">
